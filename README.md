@@ -1,2 +1,2 @@
-# ng-motor
-ng motor - the next javascript rules engine generation
+# motor
+Motor is the next generation of javascript rules engine.
