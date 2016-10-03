@@ -3,12 +3,3 @@ machine:
     version: 6.7.0
   post:
     - npm install angular-cli -g
-    - webdriver-manager update
-    - webdriver-manager start:
-      background: true
-    - cd /home/ubuntu/motor; ng serve;
-      background: true
-
-checkout:
-  post:
-    - cd /home/ubuntu/motor; ng e2e;
