@@ -1,0 +1,14 @@
+machine:
+  node:
+    version: 6.7.0
+  post:
+    - npm install angular-cli -g
+    - webdriver-manager update
+    - webdriver-manager start:
+      background: true
+    - cd /home/ubuntu/motor; ng serve;
+      background: true
+
+checkout:
+  post:
+    - /home/ubuntu/core/refresh.sh

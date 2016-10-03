@@ -7,8 +7,8 @@ describe('motor App', function() {
     page = new MotorPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Motor: Rules As A Service');
   });
 });
