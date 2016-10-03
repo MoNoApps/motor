@@ -11,4 +11,4 @@ machine:
 
 checkout:
   post:
-    - /home/ubuntu/core/refresh.sh
+    - cd /home/ubuntu/motor; ng e2e;
